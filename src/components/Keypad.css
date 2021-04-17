@@ -1,0 +1,25 @@
+.keypad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  background: #7e707f;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 3px 3px 7px 1px #000000;
+}
+
+#equal-button {
+  background: red;
+}

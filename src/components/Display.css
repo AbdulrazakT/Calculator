@@ -1,0 +1,16 @@
+.display {
+  background: #45494c;
+  height: 6rem;
+  width: auto;
+  border-radius: 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+label {
+  color: white;
+  font-size: 2rem;
+  margin-right: 16px;
+  overflow-x: hidden;
+}
